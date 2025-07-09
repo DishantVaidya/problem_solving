@@ -12,7 +12,7 @@
 ## 🛠️ Languages Used
 
 * Python
-* 
+  
 ## 🎯 Purpose
 
 * Practice data structures and algorithms
