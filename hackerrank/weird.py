@@ -6,16 +6,16 @@
 # Solution:
 
 n = int(input("Enter an integer: "))
-if(n % 2 == 1):
+
+if n % 2 == 1:
     print("Weird")
-elif (n % 2 == 0 and 1 < n < 6):
+elif 2 <= n <= 5:
     print("Not Weird")
-elif (n % 2 == 0 and 5 < n < 21):       
+elif 6 <= n <= 20:
     print("Weird")
-elif (n % 2 == 0 and n > 20):
-    print("Not Weird")          
-else:
-    print("Weird")    
+else:  # n is even and > 20
+    print("Not Weird")
+
 
     
     
